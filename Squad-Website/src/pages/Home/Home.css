@@ -1,0 +1,29 @@
+.home-container{
+  position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.right-content {
+  position: absolute;
+  right: -50%;
+  top: 20px;
+}
+.left-content{
+  position: absolute;
+  top: 200px;
+  left: 0;
+}
+.green {
+  color: #A4D300;
+  font-weight: bold;
+}
+.headline {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.gameLine {
+  display: inline-block;
+  margin-left:50px ;/* optional tweak */
+}

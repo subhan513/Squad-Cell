@@ -1,0 +1,14 @@
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainbody {
+  height: 60vh;
+  width: 100vh;
+}
+button {
+  padding: 10px 5px;
+   border-radius: 10px;
+   border: 1px solid black;
+}
