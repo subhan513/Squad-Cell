@@ -7,7 +7,10 @@ const Footer = ({ Mode }) => {
 
   return (
     <footer className="footer" style={{ backgroundColor: bgColor, color: textColor }}>
-      <hr />
+  <hr style={{
+  borderColor: Mode === 'dark' ? 'white' : 'black',
+  borderWidth: '1px'
+}} />
       <div className="footer-main">
         <div className="social-group">
           <Link to="https://twitter.com" target="_blank" rel="noreferrer">
@@ -21,7 +24,10 @@ const Footer = ({ Mode }) => {
           </Link>
         </div>
       </div>
-      <hr />
+ <hr style={{
+  borderColor: Mode === 'dark' ? 'white' : 'black',
+  borderWidth: '1px'
+}} />
       <div className="footer-bottom">
         <p>© 2024 - Squadcell. All Rights Reserved</p>
         <div className="footer-links">
