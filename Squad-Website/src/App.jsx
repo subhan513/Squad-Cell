@@ -1,6 +1,6 @@
 import Layout from './components/Layout'
 import {BrowserRouter,Link,Route,Routes} from "react-router-dom"
-import Home from './pages/Home/home'
+import Home from './pages/Home/Home.jsx'
 import './App.css'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'

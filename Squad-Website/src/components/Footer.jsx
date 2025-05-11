@@ -10,25 +10,14 @@ const Footer = ({ Mode }) => {
       <hr />
       <div className="footer-main">
         <div className="social-group">
-          <Link      to="https://twitter.com" target="_blank" rel="noreferrer">
-            <img src="/icons/vite.svg" alt="Twitter" />
+          <Link to="https://twitter.com" target="_blank" rel="noreferrer">
+            <img src="/icons/twitter.webp" alt="Twitter" />
           </Link>
           <Link      to="https://facebook.com" target="_blank" rel="noreferrer">
-            <img src="/icons/vite.svg" alt="Facebook" />
+            <img src="/icons/facebook.png" alt="Facebook" />
           </Link>
           <Link      to="https://instagram.com" target="_blank" rel="noreferrer">
-            <img src="/icons/vite.svg" alt="Instagram" />
-          </Link>
-        </div>
-        <div className="social-group">
-          <Link  to="https://twitter.com" target="_blank" rel="noreferrer">
-            <img src="/icons/vite.svg" alt="Twitter" />
-          </Link>
-          <a to="https://facebook.com" target="_blank" rel="noreferrer">
-            <img src="/icons/vite.svg" alt="Facebook" />
-          </a>
-          <Link  to="https://instagram.com" target="_blank" rel="noreferrer">
-            <img src="/icons/vite.svg" alt="Instagram" />
+            <img src="/icons/instagram.jpg" alt="Instagram" />
           </Link>
         </div>
       </div>
